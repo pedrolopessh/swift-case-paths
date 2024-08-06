@@ -21,28 +21,28 @@
     {
       "identity" : "swift-macro-testing",
       "kind" : "remoteSourceControl",
-      "location" : "https://github.com/pointfreeco/swift-macro-testing",
+      "location" : "https://github.com/pedrolopessh/swift-macro-testing",
       "state" : {
-        "revision" : "a35257b7e9ce44e92636447003a8eeefb77b145c",
-        "version" : "0.5.1"
+        "branch" : "swift-syntax-test",
+        "revision" : "ece8ba504aa2c531c5658818e53270d08e921dfa"
       }
     },
     {
       "identity" : "swift-snapshot-testing",
       "kind" : "remoteSourceControl",
-      "location" : "https://github.com/pointfreeco/swift-snapshot-testing",
+      "location" : "https://github.com/pedrolopessh/swift-snapshot-testing",
       "state" : {
-        "revision" : "c097f955b4e724690f0fc8ffb7a6d4b881c9c4e3",
-        "version" : "1.17.2"
+        "branch" : "swift-syntax-test",
+        "revision" : "681312e8ccac94b109816ffaa3f5c13f16a39fd3"
       }
     },
     {
-      "identity" : "swift-syntax",
+      "identity" : "swift-syntax-xcframeworks",
       "kind" : "remoteSourceControl",
-      "location" : "https://github.com/swiftlang/swift-syntax",
+      "location" : "https://github.com/sjavora/swift-syntax-xcframeworks",
       "state" : {
-        "revision" : "4c6cc0a3b9e8f14b3ae2307c5ccae4de6167ac2c",
-        "version" : "600.0.0-prerelease-2024-06-12"
+        "revision" : "7501c18dfe20e637818d838df961072176d6296e",
+        "version" : "510.0.1"
       }
     },
     {
