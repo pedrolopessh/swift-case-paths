@@ -18,9 +18,9 @@ let package = Package(
     )
   ],
   dependencies: [
-    .package(url: "https://github.com/swiftlang/swift-syntax", "509.0.0"..<"601.0.0-prerelease"),
+	.package(url: "https://github.com/sjavora/swift-syntax-xcframeworks", exact: "510.0.1"),
     .package(url: "https://github.com/pointfreeco/xctest-dynamic-overlay", from: "1.2.2"),
-    .package(url: "https://github.com/pointfreeco/swift-macro-testing", from: "0.2.0"),
+    .package(url: "https://github.com/pedrolopessh/swift-macro-testing", branch: "swift-syntax-test"),
   ],
   targets: [
     .target(
@@ -38,8 +38,9 @@ let package = Package(
     .macro(
       name: "CasePathsMacros",
       dependencies: [
-        .product(name: "SwiftSyntaxMacros", package: "swift-syntax"),
-        .product(name: "SwiftCompilerPlugin", package: "swift-syntax"),
+//        .product(name: "SwiftSyntaxMacros", package: "swift-syntax"),
+//        .product(name: "SwiftCompilerPlugin", package: "swift-syntax"),
+		.product(name: "SwiftSyntaxWrapper", package: "swift-syntax-xcframeworks"),
       ]
     ),
     .testTarget(
